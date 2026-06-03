@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -11,6 +11,10 @@
 <meta name="description" content="Junte arquivos PDF online grátis, rápido e seguro.">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- GOOGLE ADSENSE -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5932203345016255"
+     crossorigin="anonymous"></script>
 
 <style>
 
@@ -45,6 +49,36 @@ header p{
     max-width:1100px;
     margin:auto;
     padding:20px;
+}
+
+.navbar{
+    width:100%;
+    background:#111827;
+    padding:18px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #1f2937;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:700;
+}
+
+.nav-links{
+    display:flex;
+    gap:20px;
+}
+
+.nav-links a{
+    color:#cbd5e1;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#3b82f6;
 }
 
 .card{
@@ -122,13 +156,11 @@ input[type=file]{
 
 .ad-box{
     background:#111827;
-    border:1px dashed #374151;
     border-radius:20px;
-    padding:40px;
+    padding:25px;
     text-align:center;
-    color:#94a3b8;
     margin-top:35px;
-    font-size:18px;
+    overflow:hidden;
 }
 
 .content{
@@ -191,7 +223,26 @@ footer{
     color:#94a3b8;
 }
 
+.footer-links{
+    margin-top:15px;
+}
+
+.footer-links a{
+    color:#94a3b8;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+.footer-links a:hover{
+    color:#3b82f6;
+}
+
 @media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+    }
 
     header h1{
         font-size:34px;
@@ -219,6 +270,21 @@ footer{
 
 <body>
 
+<div class="navbar">
+
+    <div class="logo">
+        PDF Tools Brasil
+    </div>
+
+    <div class="nav-links">
+        <a href="#">Início</a>
+        <a href="#">Ferramentas</a>
+        <a href="#">Contato</a>
+        <a href="#">Política</a>
+    </div>
+
+</div>
+
 <header>
 
     <h1>Juntar PDF Online</h1>
@@ -233,7 +299,14 @@ footer{
 
     <!-- ANUNCIO 1 -->
     <div class="ad-box">
-        ESPAÇO PARA ANÚNCIO GOOGLE ADSENSE
+
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-5932203345016255"
+             data-ad-slot="1234567890"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+
     </div>
 
     <div class="card">
@@ -269,7 +342,14 @@ footer{
 
     <!-- ANUNCIO 2 -->
     <div class="ad-box">
-        SEGUNDO ESPAÇO PARA ANÚNCIO
+
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-5932203345016255"
+             data-ad-slot="1234567890"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+
     </div>
 
     <div class="content">
@@ -298,7 +378,14 @@ footer{
 
     <!-- ANUNCIO 3 -->
     <div class="ad-box">
-        TERCEIRO ESPAÇO PARA ANÚNCIO
+
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-5932203345016255"
+             data-ad-slot="1234567890"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+
     </div>
 
     <div class="related-tools">
@@ -333,23 +420,51 @@ footer{
 
     <!-- ANUNCIO 4 -->
     <div class="ad-box">
-        QUARTO ESPAÇO PARA ANÚNCIO
+
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-5932203345016255"
+             data-ad-slot="1234567890"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+
     </div>
 
     <!-- ANUNCIO 5 -->
     <div class="ad-box">
-        QUINTO ESPAÇO PARA ANÚNCIO
+
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-5932203345016255"
+             data-ad-slot="1234567890"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+
     </div>
 
 </div>
 
 <footer>
+
     © 2026 PDF Tools Brasil
+
+    <div class="footer-links">
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Uso</a>
+        <a href="#">Contato</a>
+    </div>
+
 </footer>
 
 <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
 
 <script>
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+(adsbygoogle = window.adsbygoogle || []).push({});
+(adsbygoogle = window.adsbygoogle || []).push({});
+(adsbygoogle = window.adsbygoogle || []).push({});
+(adsbygoogle = window.adsbygoogle || []).push({});
 
 const pdfInput = document.getElementById('pdfInput');
 const fileList = document.getElementById('fileList');
@@ -451,4 +566,4 @@ async function mergePDFs(){
 
 </body>
 </html>
-
+```
